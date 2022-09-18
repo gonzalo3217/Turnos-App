@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TurnosApp</string>
+    <string name="BotonSiguiente">Ir</string>
+    <string name="tv1">Bienvenidos a nuestra app de Turnos</string>
+    <string name="textw1">Sexuales y Adolescentes </string>
+    <string name="textw2">Fiscalias de Flagrancia</string>
+    <string name="textw3">Las Piedras, Maldonado, Paysandu, Salto, San Carlos </string>
+    <string name="textw4">Atlantida, C.de la Costa, Doble y Triple Turno, Pando y Toledo. </string>
+    <string name="textw5">Doble y Triple Turno, Pando y Toledo, Atlantida.</string>
+    <string name="textw6">Indica el nro de Departamento y Seccional</string>
+    <string name="textw7">1.Artigas 2.Canelones. 3.C.Largo  4.Colonia 5.Maldonado 6.Rio Negro  7. Rocha 8. SanJose 9.Soriano 0.Tacuarembo </string>
+    <string name="textw8"> JURISDICCIONES Y FISCALIAS</string>
+    <string name="textView9">LAS PIEDRAS 1 A 4</string>
+    <string name="textView10">MALDONADO 1 A 4</string>
+    <string name="textView11">PAYSANDU 1 A 4</string>
+    <string name="textView12">SALTO  1 A 4</string>
+    <string name="textView7">SAN CARLOS  1 A 2</string>
+    <string name="textView13">ATLANTIDA 1 Y 2</string>
+    <string name="textView14">C.DE LA COSTA 1 A 3</string>
+    <string name="textView15">DOBLE TURNO</string>
+    <string name="textView16">TRIPLE TURNO</string>
+    <string name="textView17">PANDO </string>
+    <string name="BotonAnterior">Atras</string>
+    <string name="tv2">Segundo Activity</string>
+    <string name="tv3">Selecciona mes y dia.</string>
+    <string name="editText">Indica el mes</string>
+    <string name="editText2">Indica el dia</string>
+    <string name="editText3">Nro  de Seccional</string>
+    <string name="editText4">Nro  de Departamento</string>
+    <string name="button">2017</string>
+    <string name="button1">2018</string>
+    <string name="button2">2019</string>
+    <string name="button3">2020</string>
+    <string name="button5">2021</string>
+    <string name="button6">2022</string>
+    <string name="button4">BUSCAR</string>
+    <string name="textView2">VIOLENCIA DOMESTICA 1 a 3 y 7</string>
+    <string name="textView3">SEXUALES 4 A 8</string>
+    <string name="textView4">ADOLESCENTES</string>
+
+</resources>

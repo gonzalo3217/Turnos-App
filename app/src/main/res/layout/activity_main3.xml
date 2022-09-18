@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/tv_estatus"
+        android:layout_width="249dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="80dp"
+        android:text="Turnos de Flagrancia"
+        android:textColor="@android:color/white"
+        android:textColorLink="?android:attr/colorActivatedHighlight"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_matematicas"
+        android:layout_width="238dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Mes"
+        android:inputType="number"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="?android:attr/colorActivatedHighlight"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/holo_red_dark"
+        android:textCursorDrawable="?android:attr/colorMultiSelectHighlight"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_estatus" />
+
+    <EditText
+        android:id="@+id/txt_fisica"
+        android:layout_width="234dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="dia"
+        android:inputType="number"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/holo_orange_light"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/holo_red_light"
+        android:textCursorDrawable="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_matematicas" />
+
+    <EditText
+        android:id="@+id/txt_quimica"
+        android:layout_width="226dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="zona"
+        android:inputType="number"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/background_light"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/holo_red_dark"
+        android:textCursorDrawable="@android:color/holo_orange_light"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_fisica" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:width="18sp"
+        android:onClick="TurnosF2018"
+        android:text="2018"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_quimica" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:width="18sp"
+        android:onClick="TurnosF2019"
+        android:text="2019"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/txt_quimica" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:onClick="TurnosF2020"
+        android:text="2020"
+        android:width="18sp"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_quimica" />
+
+    <Button
+        android:id="@+id/button48"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:width="18sp"
+        android:onClick="TurnosF2021"
+        android:text="@string/button5"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_quimica" />
+
+    <Button
+        android:id="@+id/button65"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:onClick="TurnosF2022"
+        android:text="@string/button6"
+        android:width="18sp"
+        app:layout_constraintStart_toEndOf="@+id/button48"
+        app:layout_constraintTop_toBottomOf="@+id/txt_quimica" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
